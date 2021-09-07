@@ -78,7 +78,16 @@ body {
     font-size: 19px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1050px) {
+    .common_para {
+        font-size: 13px;
+    }
+    .cstmLvlsize {
+        font-size: 10px;
+    }
+    .rest_words {
+        font-size: 12.5px;
+    }
     body {
         font-size: 12px;
     }
@@ -112,9 +121,6 @@ body {
     .right_date_para {
         font-size: 9.5px;
     }
-    .common_para {
-        font-size: 18px;
-    }
     .common_para2 {
         font-size: 18px;
     }
@@ -125,7 +131,7 @@ body {
         font-size: 14px;
     }
     .note {
-        font-size: 16px;
+        font-size: 15px;
     }
     .cstm_size {
         font-size: 13px;
