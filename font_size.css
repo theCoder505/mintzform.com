@@ -1,0 +1,142 @@
+body {
+    font-size: 14.5px;
+}
+
+.specRecord {
+    font-size: 20px;
+}
+
+.specRecord2 {
+    font-size: 18px;
+}
+
+.bg_gray {
+    font-size: 18px;
+}
+
+.cstmLvlsize {
+    font-size: 12px;
+}
+
+.rest_words {
+    font-size: 15.5px;
+}
+
+.p_normal {
+    font-size: 15.5px;
+}
+
+.main_text {
+    font-size: 15.5px;
+}
+
+.underneath_text {
+    font-size: 10.5px;
+}
+
+.inffont_size {
+    font-size: 16px;
+}
+
+.right_date_para {
+    font-size: 12.5px;
+}
+
+.common_para {
+    font-size: 21px;
+}
+
+.common_para2 {
+    font-size: 21px;
+}
+
+.custom_size {
+    font-size: 20px;
+}
+
+.li_hyphen_para {
+    font-size: 17px;
+}
+
+.note {
+    font-size: 19px;
+}
+
+.cstm_size {
+    font-size: 16px;
+}
+
+.identity_para {
+    font-size: 19px;
+}
+
+.small_font {
+    font-size: 17px;
+}
+
+.last_fonts {
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    .specRecord {
+        font-size: 17px;
+    }
+    .specRecord2 {
+        font-size: 15px;
+    }
+    .bg_gray {
+        font-size: 13px;
+    }
+    .cstmLvlsize {
+        font-size: 9px;
+    }
+    .rest_words {
+        font-size: 12.5px;
+    }
+    .p_normal {
+        font-size: 12.5px;
+    }
+    .main_text {
+        font-size: 12.5px;
+    }
+    .underneath_text {
+        font-size: 8.5px;
+    }
+    .inffont_size {
+        font-size: 13px;
+    }
+    .right_date_para {
+        font-size: 9.5px;
+    }
+    .common_para {
+        font-size: 18px;
+    }
+    .common_para2 {
+        font-size: 18px;
+    }
+    .custom_size {
+        font-size: 17px;
+    }
+    .li_hyphen_para {
+        font-size: 14px;
+    }
+    .note {
+        font-size: 16px;
+    }
+    .cstm_size {
+        font-size: 13px;
+    }
+    .identity_para {
+        font-size: 16px;
+    }
+    .small_font {
+        font-size: 15px;
+    }
+    .last_fonts {
+        font-size: 17px;
+    }
+}

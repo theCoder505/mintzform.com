@@ -1,0 +1,130 @@
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+        -moz-print-color-adjust: exact !important;
+        font-size: 12.5px;
+        width: 1200px;
+    }
+    /* .text_right {
+        font-size: 10px;
+    } */
+    .lg_p_left_cstm {
+        padding-left: 50px;
+    }
+    .spec_value {
+        font-size: 10px;
+    }
+    .specRecord {
+        font-size: 18px;
+    }
+    .specRecord2 {
+        font-size: 16px;
+    }
+    .bg_gray {
+        font-size: 16px;
+    }
+    .cstmLvlsize {
+        font-size: 10px;
+    }
+    .rest_words {
+        font-size: 13.5px;
+    }
+    .p_normal {
+        font-size: 13.5px;
+    }
+    .main_text {
+        font-size: 13.5px;
+    }
+    .underneath_text {
+        font-size: 9.5px;
+    }
+    .inffont_size {
+        font-size: 15px;
+    }
+    .right_date_para {
+        font-size: 10.5px;
+    }
+    .common_para {
+        font-size: 19px;
+    }
+    .common_para2 {
+        font-size: 19px;
+    }
+    .custom_size {
+        font-size: 18px;
+    }
+    .li_hyphen_para {
+        font-size: 15px;
+    }
+    .note {
+        font-size: 17px;
+    }
+    .cstm_size {
+        font-size: 14px;
+    }
+    .identity_para {
+        font-size: 17px;
+    }
+    .small_font {
+        font-size: 15px;
+    }
+    .last_fonts {
+        font-size: 17px;
+    }
+    #header,
+    #prevNextDiv {
+        display: none;
+    }
+    .print1 {
+        width: 8%;
+        float: left;
+    }
+    .print2 {
+        width: 16%;
+        float: left;
+    }
+    .print3 {
+        width: 25%;
+        float: left;
+    }
+    .print4 {
+        width: 33%;
+        float: left;
+    }
+    .print5 {
+        width: 42%;
+        float: left;
+    }
+    .print6 {
+        width: 50%;
+        float: left;
+    }
+    .print7 {
+        width: 58%;
+        float: left;
+    }
+    .print8 {
+        width: 66%;
+        float: left;
+    }
+    .print9 {
+        width: 75%;
+        float: left;
+    }
+    .print10 {
+        width: 83%;
+        float: left;
+    }
+    .print11 {
+        width: 92%;
+        float: left;
+    }
+    .print12 {
+        width: 100%;
+        float: left;
+    }
+    .printCenter {
+        width: 100%;
+        margin: 15px auto;
+    }
+}

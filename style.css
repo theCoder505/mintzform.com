@@ -1,0 +1,292 @@
+body {
+    background-color: #fff;
+    /* font-family: "Calibiri"; */
+    /* font-family: sans-serif; */
+    color-adjust: exact;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input[type="text"][disabled] {
+    background-color: transparent;
+    color: black;
+}
+
+#tableHolder {
+    max-width: 90vw;
+    margin: 25px auto;
+}
+
+.btn-language button,
+#nextBtn,
+#prevBtn {
+    border: none;
+    outline: none;
+    background-color: #125f8f;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #4286f4;
+}
+
+.btn-language button:hover {
+    background-color: #1c8ace;
+}
+
+.LogoImage {
+    width: 220px;
+    height: 100px;
+}
+
+.firstSection,
+.secondSection {
+    margin: 15px auto;
+}
+
+.specRecord {
+    font-weight: bold;
+    float: right;
+    text-align: right;
+}
+
+.specRecord2 {
+    font-weight: bold;
+    float: right;
+    text-align: right;
+}
+
+#infoTable {
+    border: 2px solid black;
+}
+
+.bg_gray {
+    background-color: #cccccc;
+    color: black;
+    font-weight: 700;
+    padding: 3px 15px;
+}
+
+.firstSection,
+.secondSection {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.row_margin_remove {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.dflex {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.border_bottom {
+    border-bottom: 2px solid black;
+}
+
+.input_bottom {
+    border-bottom: 2px solid black;
+    padding: 0px;
+}
+
+.border_right {
+    border-right: 2px solid black;
+}
+
+.b_top {
+    border-top: 2px solid black;
+}
+
+.border_left_right {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.text_right {
+    text-align: right;
+    padding: 0px;
+}
+
+.search_weight {
+    font-weight: 700;
+}
+
+.pol_info {
+    padding: 10px 15px;
+}
+
+.lg_p_left_cstm {
+    padding-left: 85px;
+}
+
+.sign_input {
+    height: 70%;
+}
+
+.p_normal {
+    font-weight: normal;
+}
+
+#helperHolder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.underneath_text {
+    color: black;
+}
+
+.cobourg {
+    font-weight: 700;
+}
+
+.right_date_para {
+    text-align: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.common_para {
+    margin-top: 15px;
+}
+
+.common_para2 {
+    margin-top: 5px;
+}
+
+.zero_margin {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.hyphen {
+    margin-right: 15px;
+}
+
+.li_hyphen_para {
+    letter-spacing: 0.9px;
+}
+
+.table-bordered {
+    border: 2px solid black;
+}
+
+.all_border {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.border_l_right {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.custom_spacer {
+    margin: 100px auto;
+}
+
+.line {
+    margin-top: 75px;
+    border-top: 1px solid black;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.li_hyphen {
+    list-style-type: none;
+}
+
+.li_hyphen li::before {
+    content: ' - ';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.invalid {
+    background-color: #ffdddd;
+}
+
+@media screen and (max-width: 600px) {
+    .LogoImage {
+        width: 100%;
+        height: auto;
+    }
+    .specRecord {
+        float: left;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .dflex {
+        display: contents;
+    }
+    .lg_p_left_cstm {
+        padding-left: 15px;
+    }
+    input {
+        border-bottom: 1px solid black;
+        margin: 10px auto;
+        padding-left: 0px;
+    }
+    .spacer_mobile {
+        height: 50px;
+        background-color: #bdbdbd;
+    }
+    .modify_mbl {
+        text-align: left;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    .slide_right_mbl {
+        left: 15px;
+        position: relative;
+    }
+    .border_right {
+        border-right: none;
+    }
+    .border_left_right {
+        border-left: none;
+        border-right: none;
+    }
+    .last_input_table input {
+        border: none;
+        padding: 0px;
+    }
+    .mbl_center {
+        text-align: center !important;
+    }
+    .logo_holder {
+        margin-left: 30px;
+    }
+    .main-logo {
+        width: 300px;
+    }
+}
