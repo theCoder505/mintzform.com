@@ -12,6 +12,7 @@ input {
 
 input[type="text"][disabled] {
     background-color: transparent;
+    /* background-color: #b5b1b130; */
     color: black;
 }
 
